@@ -13,17 +13,19 @@
                 </picture>
             </div>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Pop's</a>
-                <a href="#">Contact</a>
-                <a href="#">Profil</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pop's</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Profil</a></li>
+                </ul>
             </nav>
         </header>
         <main class="container">
             <section>
                 <article>
                     <div>
-                        <h2></h2>
+                        <h2>Jujutsu kaisen</h2>
                         <p></p>
                     </div>
                     <div>
@@ -34,7 +36,7 @@
                 </article>
                 <article>
                     <div>
-                        <h2></h2>
+                        <h2>Mushoku Tensei</h2>
                         <p></p>
                     </div>
                     <div>
@@ -70,13 +72,47 @@
             </section>
             <section>
                 <form>
-                    <input type="text" name=""/>
-                    <input type="submit" value="Submit"/>
+                    <div>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom"  placeholder="Toto" required/>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" placeholder="Titi" required/>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="mail" name="Email" placeholder="Toto@mail.com" required/>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="phone">Téléphone</label>
+                        <input type="number" name="phone" placeholder="06 25 47 65 98" required/>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="choix"></label>
+                        <select name="choix" required>
+                            <option selected>Selectionne la Catégorie</option>
+                            <option>Manga</option>
+                            <option>Anime</option>
+                            <option>Japon</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="commentaire">Commentaire</label>
+                        <input type="textarea" name="commentaire"/>
+                    </div>
                 </form>
             </section>
         </main>
         <footer>
-            
+            <div>
+                
+            </div>
         </footer>
     </body>
 </html>
