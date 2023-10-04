@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <title>PopCulture</title>
+        <meta name="description" content="site de pop culture">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="article.css" type="text/css" />
         <link rel="stylesheet" href="pop.css" type="text/css" />
@@ -19,10 +20,10 @@
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li><a href="#">Pop's</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Profil</a></li>
+                    <li><a href="#" aria-label="Home">Home</a></li>
+                    <li><a href="#" aria-label="Pop's">Pop's</a></li>
+                    <li><a href="#" aria-label="Contact">Contact</a></li>
+                    <li><a href="#" aria-label="Profil">Profil</a></li>
                 </ul>
             </nav>
         </header>
@@ -152,6 +153,9 @@
                         <label for="commentaire">Commentaire</label>
                         <input type="textarea" name="commentaire"/>
                     </div>
+                    <div>
+                        <button aria-pressed>Soumettre</button>
+                    </div>
                 </form>
             </section>
         </main>
@@ -171,10 +175,10 @@
             </div>
             <div class="reseaux">
                 <h2>Réseaux Sociaux</h2>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-discord"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </footer>
     </body>
