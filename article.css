@@ -28,9 +28,9 @@ article > div > a:hover {
 }
 
 article > .resume {
-    
+    color: #ffd481;
     border-radius: 2% ;
-    background-color: #995b3d;
+    background-color: #683629;
 }
 
 div {
