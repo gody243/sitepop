@@ -17,6 +17,10 @@ nav{
 nav ul > li{
   color: #ffd481;
 }
+nav a {
+  color:#ffd481;
+  text-decoration: none;
+}
 ul {
   display: flex;
   align-items:flex-end;
@@ -34,6 +38,7 @@ form{
   align-items:center;
   justify-content:center;
   padding: 10px;
+
 }
 
 form div{
