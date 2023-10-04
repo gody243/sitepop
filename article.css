@@ -10,7 +10,9 @@ picture > img {
     height: 300px;
     border-radius: 5%;
     object-fit: cover;
+     box-shadow: 2px 2px black;
 }
+
 
 article > div > a {
     color: black;
@@ -20,6 +22,8 @@ article > div > a {
     background-color:#d59055;
     text-decoration: none;
     border-radius: 5%;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px black;
 }
 
 article > div > a:hover {
@@ -31,6 +35,7 @@ article > .resume {
     color: #ffd481;
     border-radius: 2% ;
     background-color: #683629;
+     box-shadow: 2px 2px black;
 }
 
 div {
@@ -48,6 +53,7 @@ h2 {
 
 form div:last-child input {
     height:90px;
+    
 /******* RESOLUTION ARTICLE *********/
 }
 @media screen and (min-width:780px){
