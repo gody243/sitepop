@@ -1,0 +1,34 @@
+footer {
+    color :#ffd481;
+    width: 100%;
+    background-color: #421c1b;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer > div > h2 {
+    border-bottom: 1px dashed #ffd481;
+    width: 95%;
+    color: #ffd481;
+}
+
+footer > div > i {
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color : #ffd481;
+}
+
+.contact, a:hover {
+    color: #995b3d;
+}
+
+.reseaux > i:hover {
+    color: #995b3d;
+    cursor: pointer;
+}
