@@ -8,28 +8,25 @@ body{
   
 }
 nav{
-  
+
   background-color:#421c1b;
   height:80px;
-  
   font-size: 20px;
 }
-nav ul > li{
-  color: #ffd481;
-}
+
+
 nav a {
+  
   color:#ffd481;
   text-decoration: none;
 }
-ul {
+ ul{
   display: flex;
-  align-items:flex-end;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
-  padding-right: 40px;
+  align-items:center;
+  padding: 25px;
 
-  
-  
 }
 form{
   border: 1px solid;
