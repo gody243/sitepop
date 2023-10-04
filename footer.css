@@ -22,6 +22,7 @@ footer > div > a {
 footer a {
     text-decoration: none;
     color : #ffd481;
+    transition-duration: 0.4s;
 }
 
 .contact, a:hover {
@@ -31,12 +32,6 @@ footer a {
 .reseaux > i:hover {
     color: #995b3d;
     cursor: pointer;
-}
-@media screen and (max-width:1000px) {
-    body{
-        width: 100%;
-    }
-    
 }
 
 
