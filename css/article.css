@@ -85,4 +85,9 @@ h2 {
         display: flex;
         justify-content: center;
     }
+    #commentaire{
+        width: 100%;
+        height:100%;
+    }
+    
 }
