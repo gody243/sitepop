@@ -48,4 +48,22 @@ h2 {
 
 form div:last-child input {
     height:90px;
+/******* RESOLUTION ARTICLE *********/
+}
+@media screen and (min-width:780px){
+    
+}
+
+@media screen and (min-width:980px){
+    
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    article {
+        width: 100%;
+    }
 }
