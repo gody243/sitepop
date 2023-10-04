@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+picture > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5%;
+    object-fit: cover;
+}
