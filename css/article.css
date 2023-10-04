@@ -1,0 +1,88 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+picture > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5%;
+    object-fit: cover;
+     box-shadow: 2px 2px black;
+}
+
+
+article > div > a {
+    color: black;
+    margin: 10px 10px;
+    text-align: center;
+    padding : 10px;
+    background-color:#d59055;
+    text-decoration: none;
+    border-radius: 5%;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px black;
+}
+
+article > div > a:hover {
+    color: #ffd481;
+    background-color: #421c1b;
+}
+
+article > .resume {
+    color: #ffd481;
+    border-radius: 2% ;
+    background-color: #683629;
+     box-shadow: 2px 2px black;
+}
+
+div {
+    margin-top: 20px;
+}
+
+article > div > p, h2 {
+    padding: 5px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#commentaire {
+    width: 300px;
+    height: 100px; 
+}
+
+    
+/******* RESOLUTION ARTICLE *********/
+
+@media screen and (min-width:780px){
+    .formulaire {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:980px){
+    
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    article {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:780px){
+    .formulaire {
+        display: flex;
+        justify-content: center;
+    }
+}
