@@ -32,6 +32,12 @@ footer a {
     color: #995b3d;
     cursor: pointer;
 }
+@media screen and (max-width:1000px) {
+    body{
+        width: 100%;
+    }
+    
+}
 
 
 /******* RESOLUTION FOOTER *********/
