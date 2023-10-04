@@ -51,7 +51,7 @@ h2 {
     text-align: center;
 }
 
-form div:last-child input {
+.comment {
     height:90px;
     
 /******* RESOLUTION ARTICLE *********/
