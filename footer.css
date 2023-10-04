@@ -14,9 +14,9 @@ footer > div > h2 {
     color: #ffd481;
 }
 
-footer > div > i {
-    font-size: 20px;
-    padding: 20px;
+footer > div > a {
+    font-size: 30px;
+    padding-right: 20px;
 }
 
 footer a {
@@ -33,3 +33,14 @@ footer a {
     cursor: pointer;
 }
 
+
+/******* RESOLUTION FOOTER *********/
+
+@media screen and (min-width:780px){
+    
+    footer {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 10px;
+    }
+}
