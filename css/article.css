@@ -122,4 +122,8 @@ button:hover {
         padding: 10px;
     }
    
+   h1 {
+      font-size: 20px;
+      width: 80%;
+   }
 }
