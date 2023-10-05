@@ -8,13 +8,18 @@
         <link rel="stylesheet" href="css/article.css" type="text/css" />
         <link rel="stylesheet" href="css/pop.css" type="text/css" />
         <link rel="stylesheet" href="css/footer.css" type="text/css" />
+        <link rel="stylesheet" href="./css/article.css" type="text/css" />
+        <link rel="stylesheet" href="./css/pop.css" type="text/css" />
+        <link rel="stylesheet" href="./css/footer.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" type="text/css" />
         <script src="js/js.js"></script>
         <meta charset="UTF8">
     </head>
     <body>
         <header>
-            <h1>PopCulture</h1>
+            <div id="titre">
+                <h1>PopCulture</h1>
+            </div>
             <div>
                 <picture>
                     <img src="./img/3118.png" alt="popculture"></img>
@@ -122,42 +127,49 @@
                 <form>
                     <div>
                         <label for="prenom">Prénom</label>
-                        <input type="text" name="prenom"  placeholder="Toto" required/>
+                        <input id="prenom" aria-label="prenom" type="text" name="prenom"  placeholder="Toto" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="nom">Nom</label>
-                        <input type="text" name="nom" placeholder="Titi" required/>
+                        <input id="nom" aria-label="nom" type="text" name="nom" placeholder="Titi" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="email">Email</label>
-                        <input type="mail" name="Email" placeholder="Toto@mail.com" required/>
+                        <input id="email" aria-label="email" type="email" name="Email" placeholder="Toto@mail.com" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="phone">Téléphone</label>
-                        <input type="tel" name="phone" placeholder="06 25 47 65 98" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required/>
+                        <input id="phone" type="tel" name="phone" placeholder="06 25 47 65 98" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="choix"></label>
-                        <select name="choix" required>
+                        <select id="choix" aria-label="choix" name="choix" required>
                             <option selected>Selectionne la Catégorie</option>
-                            <option>Manga</option>
-                            <option>Anime</option>
-                            <option>Jeux video</option>
-                            <option>Bande dessinée</option>
+                            <optgroup label="Manga">
+                                <option>Manga</option>
+                                <option>Anime</option>
+                            </optgroup>
+                            <optgroup label="Jeux video">
+                                <option>Jeux vidéo</option>
+                            </optgroup>
+                            <optgroup label="Bande dessiné">
+                                <option>Bande dessinée</option>
+                            </optgroup>
                         </select>
                     </div>
                     <hr>
                     <div>
                         <label for="commentaire">Commentaire</label>
+                        
                         <textarea id="commentaire" name="commentaire"></textarea>
                         <p>Nombre de caractères saisis : <span id="charCount">0</span></p>
                     </div>
                     <div>
-                        <button>Soumettre</button>
+                        <button type="submit">Soumettre</button>
                     </div>
                 </form>
             </section>
