@@ -4,6 +4,21 @@
   src: url("../font/Nabla-Regular.ttf");
 }
 
+@font-face {
+  font-family: mangat;
+  src: url("../font/mangat.ttf");
+}
+
+@font-face {
+  font-family: mangatb;
+  src: url("../font/mangatb.ttf");
+}
+
+@font-face {
+  font-family: mangati;
+  src: url("../font/mangati.ttf");
+}
+
 
 body{
   background-color:#a17c59;
@@ -87,9 +102,14 @@ h1 {
   background-color: #421c1b;
   border-radius: 50%;
   width: 50%;
+  margin: 0 auto;
 }
 
 #titre {
   display: flex;
   justify-content: center;
+}
+
+h2 {
+  font-family: mangat;
 }
