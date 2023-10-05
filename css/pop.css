@@ -8,10 +8,10 @@ body{
   
 }
 nav{
-
+  display: grid;
   background-color:#421c1b;
-  height:80px;
-  font-size: 20px;
+  
+  
 }
 
 
@@ -19,16 +19,27 @@ nav a {
   
   color:#ffd481;
   text-decoration: none;
+  width:100%;
 }
  ul{
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   align-items:center;
-  padding: 25px;
+  
   margin:0;
 
 }
+
+li:hover{
+  background-color:#683629;
+
+}
+li{
+  padding: 40px;
+  font-size: 30px;
+}
+
 form{
   border: 1px solid;
   border-radius: 2%;
