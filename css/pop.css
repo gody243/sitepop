@@ -26,7 +26,7 @@ nav a {
   
   color:#ffd481;
   text-decoration: none;
-  width:100%;
+  font-family: nabla;
 }
  ul{
   display: flex;
@@ -62,7 +62,13 @@ form{
   padding: 10px;
   width: 50%;
   box-shadow: 2px 2px black;
+  background-color: #683629;
 
+}
+
+label, span, #saisis {
+  color: #ffd481;
+  font-size: 20px;
 }
 
 form div{
