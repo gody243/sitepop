@@ -49,7 +49,7 @@ nav a {
   list-style-type: none;
   align-items:center;
   padding: 0;
-  /*margin:0;*/
+  margin:0;
 
 }
 
@@ -98,10 +98,10 @@ header{
 h1 {
   text-align: center;
   font-family: nabla;
-  font-size: 2em;
+  font-size: 3em;
   background-color: #421c1b;
   border-radius: 50%;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 
