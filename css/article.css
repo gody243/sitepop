@@ -56,6 +56,23 @@ h2 {
     height: 100px; 
 }
 
+button {
+    background-color: #683629;
+    color: #d59055;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffd481;
+    color: #421c1b;
+}
+
+
     
 /******* RESOLUTION ARTICLE *********/
 
@@ -86,6 +103,11 @@ h2 {
         display: flex;
         justify-content: center;
     }
+    
+    input, select {
+        width: 100%;
+    }
+    
     #commentaire{
         width: 100%;
         height:100%;

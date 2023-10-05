@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: nabla;
+  src: url("../font/Nabla-Regular.ttf");
+}
+
+
 body{
   background-color:#a17c59;
   display: flex;
@@ -42,6 +49,11 @@ li{
 
 form{
   border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
+  width: 50%;
   border-radius: 2%;
   display: flex;
   flex-direction: column;
@@ -49,7 +61,6 @@ form{
   justify-content:center;
   padding: 10px;
   width: 50%;
-
   box-shadow: 2px 2px black;
 
 }
@@ -61,4 +72,18 @@ form div{
 }
 header{
   width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: nabla;
+  font-size: 3em;
+  background-color: #421c1b;
+  border-radius: 50%;
+  width: 50%;
+}
+
+#titre {
+  display: flex;
+  justify-content: center;
 }
