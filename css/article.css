@@ -125,13 +125,19 @@ button:hover {
     }
     ul{
         flex-direction: column;
-      
-        
-        
+       
     }
     li{
         
         padding: 10px;
     }
+<<<<<<< HEAD
+  
+   h1 {
+      font-size: 20px;
+      width: 80%;
+   }
+=======
    
+>>>>>>> 9e9cb7cefb354bcc6833842f1375833ff91ae688
 }
