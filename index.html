@@ -131,60 +131,63 @@
             </section>
             <section class="formulaire">
                 <form>
-                    <div>
-                        <label for="prenom">Prénom</label>
-                        <input id="prenom" aria-label="prenom" type="text" name="prenom"  placeholder="Toto" required/>
-                    </div>
-                    <hr>
-                    <div>
-                        <label for="nom">Nom</label>
-                        <input id="nom" aria-label="nom" type="text" name="nom" placeholder="Titi" required/>
-                    </div>
-                    <hr>
-                    <div>
-                        <label for="email">Email</label>
-                        <input id="email" aria-label="email" type="email" name="email" placeholder="Toto@mail.com" required/>
-                    </div>
-                    <hr>
-                    <div>
-                        <label for="phone">Téléphone</label>
-                        <input id="phone" aria-label="phone" type="tel" name="phone" placeholder="06 25 47 65 98" required/>
-                    </div>
-                    <hr>
-                    <div>
-                        <label for="choix">Catégorie</label>
-                        <select aria-label="choix" name="choix" required>
-                            <option selected>Selectionne la Catégorie</option>
-                            <optgroup label="Mangas/Animés">
-                                <option>Manga</option>
-                                <option>Anime</option>
-                            </optgroup>
-                            <optgroup label="Jeux videos">
-                            <option>Jeux video</option>
-                            </optgroup>
-                            <optgroup label="Bandes dessinées">
-                            <option>Bande dessinée</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                    <hr>
-                    <div>
-                        <label for="commentaire">Commentaire</label>
-                        
-                        <textarea id="commentaire" name="commentaire"></textarea>
-                        <p id="saisis">Nombres de caractères saisis : <span id="charCount">0</span></p>
-                    </div>
-                    <div>
-                        <label for="image">Image :</label>
-                        <input aria-label="image" type="file" name="image" id="image" required/>
-                    </div>
-                    <div id="preview">
-                        <img id="image-previsualisation"/>
-                    </div>
-                    <div>
-                        <button type="submit">Soumettre</button>
-                    </div>
-                </form>
+                    <fieldset>
+                        <legend>Ajout de contenu</legend>
+                        <div>
+                            <label for="prenom">Prenom</label>
+                            <input id="prenom" aria-label="prenom" type="text" name="prenom"  placeholder="Toto" required/>
+                        </div>
+                        <hr>
+                        <div>
+                            <label for="nom">Nom</label>
+                            <input id="nom" aria-label="nom" type="text" name="nom" placeholder="Titi" required/>
+                        </div>
+                        <hr>
+                        <div>
+                            <label for="email">Email</label>
+                            <input id="email" aria-label="email" type="email" name="email" placeholder="Toto@mail.com" required/>
+                        </div>
+                        <hr>
+                        <div>
+                            <label for="phone">Telephone</label>
+                            <input id="phone" aria-label="phone" type="tel" name="phone" placeholder="06 25 47 65 98" required/>
+                        </div>
+                        <hr>
+                        <div>
+                            <label for="choix">Categorie</label>
+                            <select aria-label="choix" name="choix" required>
+                                <option selected>Selectionne la Catégorie</option>
+                                <optgroup label="Mangas/Animés">
+                                    <option>Manga</option>
+                                    <option>Anime</option>
+                                </optgroup>
+                                <optgroup label="Jeux videos">
+                                <option>Jeux video</option>
+                                </optgroup>
+                                <optgroup label="Bandes dessinées">
+                                <option>Bande dessinée</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <hr>
+                        <div>
+                            <label for="commentaire">Commentaire</label>
+                            
+                            <textarea id="commentaire" name="commentaire"></textarea>
+                            <p id="saisis">Nombres de caractères saisis : <span id="charCount">0</span></p>
+                        </div>
+                        <div>
+                            <label for="image">Image :</label>
+                            <input aria-label="image" type="file" name="image" id="image" required/>
+                        </div>
+                        <div id="preview">
+                            <img id="image-previsualisation"/>
+                        </div>
+                        <div>
+                            <button type="submit">Soumettre</button>
+                        </div>
+                    </form>
+                </fieldset>
             </section>
         </main>
         <footer>
