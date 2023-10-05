@@ -113,21 +113,15 @@ button:hover {
     }
     ul{
         flex-direction: column;
-      
-        
-        
+       
     }
     li{
         
         padding: 10px;
     }
-   
-<<<<<<< HEAD
-   
-=======
+  
    h1 {
       font-size: 20px;
       width: 80%;
    }
->>>>>>> ef17ed8321f90eddc92ba2a519d53c8c01d60060
 }
