@@ -57,8 +57,7 @@ h2 {
 }
 
 button {
-    background-color: #683629;
-    color: #d59055;
+    background-color: #d59055;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -68,8 +67,8 @@ button {
 }
 
 button:hover {
-    background-color: #ffd481;
-    color: #421c1b;
+    background-color: #421c1b;
+    color: #ffd481;
 }
 
 

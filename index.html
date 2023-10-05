@@ -14,7 +14,9 @@
     </head>
     <body>
         <header>
-            <h1>PopCulture</h1>
+            <div id="titre">
+                <h1>PopCulture</h1>
+            </div>
             <div>
                 <picture>
                     <img src="./img/3118.png" alt="popculture"></img>
@@ -122,32 +124,38 @@
                 <form>
                     <div>
                         <label for="prenom">Prénom</label>
-                        <input aria-label="prenom" type="text" name="prenom"  placeholder="Toto" required/>
+                        <input id="prenom" aria-label="prenom" type="text" name="prenom"  placeholder="Toto" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="nom">Nom</label>
-                        <input aria-label="nom" type="text" name="nom" placeholder="Titi" required/>
+                        <input id="nom" aria-label="nom" type="text" name="nom" placeholder="Titi" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="email">Email</label>
-                        <input aria-label="email" type="mail" name="Email" placeholder="Toto@mail.com" required/>
+                        <input id="email" aria-label="email" type="email" name="Email" placeholder="Toto@mail.com" required/>
                     </div>
                     <hr>
                     <div>
                         <label for="phone">Téléphone</label>
-                        <input aria-label="phone" type="number" name="phone" placeholder="06 25 47 65 98" required/>
+                        <input id="phone" aria-label="phone" type="tel" name="phone" placeholder="06 25 47 65 98" required/>
                     </div>
                     <hr>
                     <div>
-                        <label for="choix"></label>
+                        <label for="choix">Catégorie</label>
                         <select aria-label="choix" name="choix" required>
                             <option selected>Selectionne la Catégorie</option>
-                            <option>Manga</option>
-                            <option>Anime</option>
+                            <optgroup label="Mangas/Animés">
+                                <option>Manga</option>
+                                <option>Anime</option>
+                            </optgroup>
+                            <optgroup label="Jeux videos">
                             <option>Jeux video</option>
+                            </optgroup>
+                            <optgroup label="Bandes dessinées">
                             <option>Bande dessinée</option>
+                            </optgroup>
                         </select>
                     </div>
                     <hr>
@@ -155,10 +163,10 @@
                         <label for="commentaire">Commentaire</label>
                         
                         <textarea id="commentaire" name="commentaire"></textarea>
-                        <p>Nombre de caractères saisis : <span id="charCount">0</span></p>
+                        <p id="saisis">Nombres de caractères saisis : <span id="charCount">0</span></p>
                     </div>
                     <div>
-                        <button>Soumettre</button>
+                        <button type="submit">Soumettre</button>
                     </div>
                 </form>
             </section>
